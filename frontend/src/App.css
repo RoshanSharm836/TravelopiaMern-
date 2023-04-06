@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  padding: 10px 0;
+  min-height: 40rem;
+  background-color: aliceblue;
+}
+input[type="submit"] {
+  background-color: rgb(75, 132, 181);
+  color: #fff;
+  width: 30%;
+  border: none;
+}
+/* body {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 700;
+}
+form > input,
+select {
+  padding: 10px;
+}
+.container {
+  color: rgb(75, 132, 181);
+  font-weight: 500;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  margin: 5rem auto;
+  padding: 50px 0;
+  gap: 10px;
+  justify-content: center;
+}
+.container > img {
+  width: 40%;
+}
+.navbar {
+  display: flex;
+  gap: 40px;
+  position: static;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 0;
+  justify-content: center;
+}
+table {
+  width: 90%;
+  margin: 5rem auto;
+  text-align: center;
+}
+table thead {
+  background-color: #8bd0ed;
+}
+
+table > tbody tr:nth-of-type(odd) {
+  background-color: #a5dbe28f;
+}
+table > tbody tr:nth-of-type(even) {
+  background-color: #bdc3c48f;
+}
+table td,
+th {
+  padding: 20px;
+}
